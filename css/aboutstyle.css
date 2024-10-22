@@ -1,0 +1,142 @@
+/* General Styles for About Us Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #004c99;
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    color: #004c99;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Our Mission Section */
+.our-mission {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e6f7ff;
+}
+
+.our-mission h2 {
+    font-size: 2em;
+    color: #004c99;
+    margin-bottom: 15px;
+}
+
+.our-mission p {
+    font-size: 1.1em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Team Section */
+.team {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2.2em;
+    color: #004c99;
+    margin-bottom: 30px;
+}
+
+/* Team Member Styles */
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Adjust Layout for Mobile */
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-member img {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .team-member p {
+        text-align: center;
+    }
+}

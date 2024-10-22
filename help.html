@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Mind Hub - Help Page</title>
+    <link rel="stylesheet" href="css/help.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="self-assessment.html">Self-Assessment</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="help-page">
+        <h1>Mental Health Professionals</h1>
+        <p>Browse through our list of licensed professionals and schedule an appointment to get the help you need.</p>
+
+        <div class="professional-list">
+            <!-- Professional 1 -->
+            <div class="professional">
+                <img src="images/doc1.png" alt="Dr. Jane Doe">
+                <h3>Dr. Jane Doe</h3>
+                <p>Specialist in Anxiety and Depression</p>
+                <button class="details-btn" onclick="showDetails('details1')">View Details</button>
+                <button class="schedule-btn" onclick="openForm('form1')">Schedule Appointment</button>
+                <div id="details1" class="details" style="display: none;">
+                    <p>Dr. Jane has 10 years of experience helping individuals manage anxiety and depression through cognitive behavioral therapy and mindfulness.</p>
+                </div>
+                <div id="form1" class="appointment-form" style="display: none;">
+                    <h4>Schedule an Appointment with Dr. Jane Doe</h4>
+                    <form>
+                        <label for="date1">Choose Date:</label>
+                        <input type="date" id="date1"><br><br>
+
+                        <label for="time1">Choose Time:</label>
+                        <input type="time" id="time1"><br><br>
+
+                        <button type="submit" class="btn">Confirm Appointment</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Professional 2 -->
+            <div class="professional">
+                <img src="images/doc2.jpg" alt="Dr. John Smith">
+                <h3>Dr. John Smith</h3>
+                <p>Specialist in Stress Management and PTSD</p>
+                <button class="details-btn" onclick="showDetails('details2')">View Details</button>
+                <button class="schedule-btn" onclick="openForm('form2')">Schedule Appointment</button>
+                <div id="details2" class="details" style="display: none;">
+                    <p>Dr. John focuses on helping patients manage stress and trauma through holistic therapies and behavioral approaches.</p>
+                </div>
+                <div id="form2" class="appointment-form" style="display: none;">
+                    <h4>Schedule an Appointment with Dr. John Smith</h4>
+                    <form>
+                        <label for="date2">Choose Date:</label>
+                        <input type="date" id="date2"><br><br>
+
+                        <label for="time2">Choose Time:</label>
+                        <input type="time" id="time2"><br><br>
+
+                        <button type="submit" class="btn">Confirm Appointment</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Balance Mind Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/help.js"></script>
+</body>
+</html>

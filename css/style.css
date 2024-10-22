@@ -1,0 +1,258 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    background-color: #004c99;
+    padding: 10px 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #005f7f;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #cce7ff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #004c99;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #005f7f;
+}
+
+/* Introduction Section */
+.introduction {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+}
+
+.introduction h2 {
+    font-size: 2.2em;
+    color: #004c99;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.2em;
+    color: #004c99;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 28%;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e6f7ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.2em;
+    color: #004c99;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+    color: #004c99;
+    margin-bottom: 20px;
+}
+
+.call-to-action .btn {
+    margin: 0 10px;
+    padding: 15px 25px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.call-to-action .btn:hover {
+    background-color: #005f7f;
+}
+
+/* Newsletter Signup Section */
+.newsletter {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2em;
+    color: #004c99;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.newsletter form input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1em;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background-color: #005f7f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004c99;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features {
+        text-align: center;
+    }
+
+    .feature-item {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .call-to-action .btn {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .newsletter form input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
